@@ -1,33 +1,69 @@
-# 🏡 House Price Prediction using Machine Learning
+🏡 House Price Prediction Project
+📋 Overview
 
-This is a simple data science project that predicts house prices based on their size (square feet).  
-It uses **Linear Regression** from `scikit-learn` and visualizes the data with `matplotlib`.
+This project predicts the price of houses based on various features like location, area, number of rooms, and other property attributes.
+It uses Machine Learning (Python, scikit-learn) to train a model that can estimate housing prices accurately.
 
----
+🚀 Project Features
 
-## 🚀 Features
-- Uses Python libraries: **pandas**, **matplotlib**, and **scikit-learn**
-- Predicts house prices based on training data
-- Displays a clean graph of actual vs predicted prices
+📊 Data analysis and preprocessing
 
----
+🧮 Model training with regression algorithms
 
-## 🧠 What I Learned
-- How to use `pandas` to handle data  
-- How to build a machine learning model with `scikit-learn`  
-- How to visualize results using `matplotlib`  
-- How to manage projects with `requirements.txt` and GitHub
+📈 Visualization of model performance
 
----
+💾 Prediction results with a simple output chart
 
-## 📸 Project Output
-Here’s the result graph of the model prediction:
+🧠 Technologies Used
 
-![Output Screenshot](output.png)
+Python 3
 
----
+pandas, numpy
 
-## ⚙️ How to Run
-1. Install required packages:
-   ```bash
-   pip install -r requirements.txt
+matplotlib, seaborn
+
+scikit-learn
+
+⚙️ How to Run
+
+Clone the repository
+
+git clone https://github.com/reyrahaman9993-hub/HousePricePrediction.git
+cd HousePricePrediction
+
+
+Install dependencies
+
+pip install -r Requirement.txt
+
+
+Run the program
+
+python3 House_price_prediction.py
+
+🖼️ Output Example
+
+Here’s a sample output from the model:
+
+📚 Learning Outcomes
+
+Understanding data preprocessing
+
+Implementing regression models
+
+Evaluating model accuracy
+
+Visualizing predictions
+
+💡 Future Improvements
+
+Add a web interface using Flask or Streamlit
+
+Include more datasets for higher accuracy
+
+Deploy the model on Render, Hugging Face, or GitHub Pages
+
+👨‍💻 Author
+reyrahaman9993-hub
+
+Passionate about Data Science and Machine Learning.
